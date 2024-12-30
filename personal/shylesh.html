@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://example.com/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+            color: #333;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            animation: slideDown 1s ease-in-out;
+        }
+        header h1 {
+            color: white;
+        }
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        h1, h2 {
+            color: #6a11cb;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+        .skill {
+            flex: 1 1 calc(30% - 1rem);
+            background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .skill:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(90deg, #373b44, #4286f4);
+            color: white;
+            margin-top: 2rem;
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        a {
+            color: #2575fc;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #6a11cb;
+        }
+        .contact-icons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .contact-icons a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(120deg, #6a11cb, #2575fc);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 20px;
+            transition: transform 0.3s ease;
+        }
+        .contact-icons a:hover {
+            transform: scale(1.2);
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\Shylesh\OneDrive\Desktop\ran\personal\Screenshot 2024-08-13 184147.png" alt="Description of image" style="border-radius: 50%; width: 200px; height: 200px;"><h1>SHYLESH S</h1>
+
+    </header>
+
+    <div class="container">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate and driven individual with a strong interest in technology, automation, and design. My journey includes completing foundational courses in programming and UI/UX design, participating in hackathons, and working on impactful automation projects.
+        </p>
+
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">Python Programming</div>
+            <div class="skill">UI/UX Design</div>
+            <div class="skill">Automation (UiPath Studio)</div>
+            <div class="skill">Hackathon Participation</div>
+        </div>
+
+        <h2>Awards & Achievements</h2>
+        <p>
+            Proud recipient of the <strong>1st Prize in club activities</strong> at St. Joseph's College of Engineering, Chennai, showcasing my dedication and leadership skills.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+            <a href="mailto:shylesh1640@gmail.com">shylesh1640@gmail.com</a>
+            <a href="www.linkedin.com/in/shylesh1640">linked in</a>
+            <a href="https://github.com/Shylesh1640">github</a>
+            <a href="https://x.com/shylesh0440">twitter</a>
+            <a href="https://www.instagram.com/shylesh1640/">instagram</a>
+        </p>
+        <div class="container">
+            <img src="C:\Users\Shylesh\OneDrive\Desktop\ran\personal\gmail.jpg"width="50" height="30" alt="gmail" class="logo">
+            <img src="C:\Users\Shylesh\OneDrive\Desktop\ran\personal\gydf.jpg"width="50" height="30" alt="linked in" class="logo">
+            <img src="C:\Users\Shylesh\OneDrive\Desktop\ran\personal\github.png"width="50" height="30" alt="github" class="logo">
+            <img src="C:\Users\Shylesh\OneDrive\Desktop\ran\personal\OIP (1).jpg"width="50" height="30" alt="twitter" class="logo">
+            <img src="C:\Users\Shylesh\OneDrive\Desktop\ran\personal\instagram.webp"width="50" height="30" alt="linked in" class="logo">
+          </div>
+    </div>
+
+</body>
+</html>
+
